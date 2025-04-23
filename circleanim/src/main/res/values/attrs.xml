@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyAnim">
+
+        <attr name="startColor" format="color"/>
+        <attr name="secondColor" format="color"/>
+        <attr name="thirdColor" format="color"/>
+        <attr name="fourthColor" format="color"/>
+        <attr name="full" format="boolean"/>
+        <attr name="rotate" format="boolean"/>
+        <attr name="duration" format="integer"/>
+        <attr name="clrbackground" format="color"/>
+
+    </declare-styleable>
+</resources>

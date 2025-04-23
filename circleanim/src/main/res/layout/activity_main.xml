@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SampleActivity">
+
+    <com.anim.circleanim.MyAnim
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        custom:startColor="@android:color/holo_orange_dark"
+        custom:secondColor="@android:color/holo_blue_dark"
+        custom:thirdColor="@android:color/holo_blue_dark"
+        custom:fourthColor="@android:color/holo_orange_dark"
+        custom:full="false"
+        custom:rotate="false"
+        custom:duration="700"
+        custom:clrbackground="@android:color/darker_gray"
+        android:id="@+id/my_anim"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:text="Start"
+        android:id="@+id/start_anim"/>
+
+</RelativeLayout>
