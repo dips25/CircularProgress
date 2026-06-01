@@ -15,7 +15,7 @@ dependencyResolutionManagement {
 ## Add dependency
 `implementation("com.github.dips25:CircularProgress:v1.1")`
 
-## Add indicator to layout
+## Add progress to layout
 
 ```
 <com.anim.circleanim.MyAnim
